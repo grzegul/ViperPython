@@ -8,7 +8,7 @@ class Application(Frame):
         Frame.__init__(self, master)
         self.pack()
         self.create_widgets()
-        self.words = self.getTextFrom("source.txt")
+#        self.words = self.getTextFrom("source.txt")
 
     def create_widgets(self):
         self.label = Label(self)
@@ -28,13 +28,13 @@ class Application(Frame):
 
     def showEachWordFrom(self, words):
         for word in words:
-            sleep(0.5)
+            self.after(500)
             self.label["text"] = word
             print(word)
 
     def update_text(self):
-#        words = self.getTextFrom("source.txt")
-        self.showEachWordFrom(self.words)
+        words = self.getTextFrom("source.txt")
+        self.showEachWordFrom(words)
         self.label["text"] = "Done"
 
 

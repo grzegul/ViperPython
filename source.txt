@@ -1,6 +1,10 @@
-The concept of a function is one of the most important ones in mathematics.
-A common usage of functions in computer languages is to implement mathematical functions.
-Such a function is computing one or more results, which are entirely determined by the parameters passed to it.
-
-In the most general sense, a function is a structuring element in programming languages to group a set of statements so they can be utilized more than once in a program. The only way to accomplish this without functions would be to reuse code by copying it and adapt it to its different context.
-Using functions usually enhances the comprehensibility and quality of the program. It also lowers the cost for development and maintenance of the software. 
+Pierwsza linijka.
+Druga linijka.
+Trzecia linijka.
+Czwarta linijka.
+Piąta linijka.
+Szósta linijka.
+Siódma linijka.
+Ósma linijka.
+Dziewiąta linijka.
+Dziesiąta linijka.
